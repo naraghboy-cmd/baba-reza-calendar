@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFF8E7">
+<LinearLayout android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="🐑  تقویم رویدادهای دامداری بابا رضا" android:textSize="22sp" android:textStyle="bold" android:textColor="#4E342E" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"/>
+<EditText android:id="@+id/date" android:hint="تاریخ شمسی (مثلاً ۱۴۰۵/۰۷/۱۰)" android:inputType="text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/time" android:hint="ساعت (اختیاری)" android:inputType="time" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/tag" android:hint="شماره پلاک گوسفند" android:inputType="text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/weight" android:hint="وزن (کیلوگرم)" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/gender" android:hint="جنسیت" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/breed" android:hint="نژاد" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/mother" android:hint="پلاک مادر" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/father" android:hint="پلاک پدر" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/birth" android:hint="تاریخ تولد شمسی" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/event" android:hint="عنوان رویداد" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/type" android:hint="نوع رویداد: واکسن، درمان، جفت‌گیری، زایمان، وزن‌کشی..." android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/notes" android:hint="توضیحات" android:gravity="top" android:minLines="3" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/save" android:text="ثبت رویداد" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/search" android:text="جستجوی پلاک" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/pdf" android:text="خروجی PDF" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/excel" android:text="خروجی Excel" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/list" android:textSize="15sp" android:textColor="#3E2723" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>
